@@ -1,0 +1,138 @@
+@font-face {
+    font-family: Roboto;
+    src: url("../fonts/Roboto.ttf");
+}
+@font-face {
+    font-family: Roboto;
+    src: url("../fonts/Robotobold.ttf");
+    font-weight: bold;
+}
+/* Шапка сайта*/
+body{
+    font-family: Roboto, sans-serif;
+}
+*,
+::after,
+::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.logo img{
+    vertical-align: bottom;
+}
+
+.button{
+
+    color: #ffff;
+    background-color: #030305;
+    height: 64px;
+    width: 334px;
+    font-size: 16px;
+    font-weight: bold;
+text-transform: uppercase;
+padding: 20px;
+border: 0;
+box-sizing: border-box;
+letter-spacing: 0.02.em;
+transition: background-color 0.5s;
+}
+.button:hover{
+    background: #575757;
+   cursor: pointer;
+}
+.sub-title{
+    width: fit-content;
+    font-size: 60px;
+    font-weight: bold;
+line-height: 70px;
+color: #030305;
+
+}
+/*Третья секция*/
+.price .container{
+    margin-top: 100px;
+    position: relative;
+   
+
+}
+.price .sub-title{
+    margin-bottom: 20px;
+}
+.price-text{
+    font-size: 16px;
+    line-height: 130%;
+    color: #5D5D5F;
+    margin-bottom: 60px;
+}
+.price-form{
+    max-width: 344px;
+    
+}
+.price-input{
+    padding: 22px 18px ;
+    margin-bottom: 15px;
+    width: 344px ;
+    background-color: #ffff;
+    border:1px solid #5D5D5F;
+    font-size: 16px;
+color: #000000;
+outline: none;
+box-sizing: border-box;
+
+}
+.price::placeholder{
+    color: #5D5D5F;
+}
+.price .button{
+    width: 100%;
+
+}
+.price {
+     margin-top: 100px;
+   
+}
+.price-image{
+    position: absolute;
+    bottom: 0;
+    top:50px;
+    left: 401px;
+}
+.footer .logo img {
+  vertical-align: bottom;
+}
+.footer {
+    display: flex;
+  margin-top: 122px;
+  border-top: solid 1px #E5E5E5;
+  padding: 25px 0;
+
+}
+.rights{
+    font-size: 15px;
+    color: #030305;
+}
+@media (max-width: 768px){
+    .container{
+        width: 100%;
+    }
+    .footer{
+ max-width: 100%;
+    }
+        
+body{
+    max-width: 100%;
+}
+.sub-title{
+  max-width: 100%;
+  
+}
+.price-input{
+    max-width: 100%;
+}
+.price-image{
+   display: none;
+}
+}
